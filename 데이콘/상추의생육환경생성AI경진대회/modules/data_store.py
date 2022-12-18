@@ -133,12 +133,12 @@ class data_store():
 
     def save_pkl(self, df = pd.DataFrame()):
         if df.empty : 
-            with open(directory + 'hist_df_'+datetime.datetime.now().strftime('%Y%m%d_%H%M')+'.pkl', 'wb') as f:
+            with open(directory + datetime.datetime.now().strftime('%Y%m%d_%H%M')+'.pkl', 'wb') as f:
                 pickle.dump(self.dict_df, f)
         
         
         else : 
-            with open(directory + 'hist_df_'+datetime.datetime.now().strftime('%Y%m%d_%H%M')+'.pkl', 'wb') as f:
+            with open(directory + datetime.datetime.now().strftime('%Y%m%d_%H%M')+'.pkl', 'wb') as f:
                     pickle.dump(df, f)
             
         

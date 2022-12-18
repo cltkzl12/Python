@@ -177,7 +177,6 @@ r = [s for s in os.listdir(directory) if ".pkl" in s]
 if len(r)>=1:
     print("There is data stored")
     with open(directory+r[-1], 'rb') as fr:
-#         print(fr)
         pkl_data = pickle.load(fr)
     print("Last data fetch completed")
 
