@@ -1,17 +1,21 @@
 # Python
-<br>
+
 ##  DL
 > 1. DeepFM
+
 <br>
 
 ## Pipeline
 > 1. Streaming_processing
 >> - flink_example
+
 <br>
+
 ## Spark
 > 1. RDD
     
 <br>
+
 ## 데이콘  
 |대회명|최종 순위|
 |-|-|
